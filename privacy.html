@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Perch privacy policy</title>
+<meta name="description" content="How Perch handles your data: everything you save stays on your computer." />
+<style>
+  :root { --text: rgba(255, 255, 255, 0.92); --muted: rgba(255, 255, 255, 0.55); --hairline: rgba(255, 255, 255, 0.1); }
+  html, body { margin: 0; background: #050506; color: var(--text); }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI Variable", "Segoe UI", Inter, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.65;
+    background: radial-gradient(ellipse 60% 30% at 50% -6%, rgba(255, 255, 255, 0.1), transparent 70%), #050506;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 16px 64px; }
+  a { color: var(--text); }
+  .back { font-size: 14px; color: var(--muted); text-decoration: none; }
+  h1 { font-size: clamp(30px, 5vw, 42px); letter-spacing: -0.03em; line-height: 1.1; margin: 20px 0 6px; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 34px 0 8px; letter-spacing: -0.01em; }
+  p, li { color: rgba(255, 255, 255, 0.75); font-size: 16px; }
+  ul { padding-left: 20px; }
+  .summary { border: 1px solid var(--hairline); border-radius: 14px; padding: 16px 18px; background: rgba(255, 255, 255, 0.03); }
+  .summary p { margin: 0; color: var(--text); }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← Perch</a>
+  <h1>Privacy policy</h1>
+  <p class="updated">Last updated 17 October 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> the Perch app keeps everything on your computer. It has no accounts, no analytics and no tracking, and it doesn't send what you save anywhere.</p>
+  </div>
+
+  <h2>The Perch app (macOS and Windows)</h2>
+  <ul>
+    <li><strong>What it stores:</strong> the text and formatting of responses you choose to save, plus your review marks and notes on them. These are kept in a file on your computer (<code>items.json</code> in Perch's app data folder).</li>
+    <li><strong>How long:</strong> saved items are deleted automatically after 24 hours, unless you pin them. You can delete any item, or all of them, at any time from the Perch panel.</li>
+    <li><strong>The clipboard:</strong> Perch reads the clipboard only when you press its shortcut or paste into it. To save a selection for you, it sends a copy keystroke to the app in front at that moment, and only then. It doesn't watch or record your clipboard in the background.</li>
+    <li><strong>Cursor position:</strong> Perch checks where the cursor is to open its island on hover and to let its mascot's eyes follow you. This is used live and never stored.</li>
+    <li><strong>Network:</strong> the app makes no network requests of its own and sends nothing to us or anyone else.</li>
+    <li><strong>No accounts, analytics, ads or tracking.</strong></li>
+  </ul>
+
+  <h2>The waitlist (this website)</h2>
+  <p>If you join the waitlist, the email address you type is stored in a Google Form response sheet that only Perch's developer can see. It's used only to tell you when Perch is available, and you can ask for it to be removed at any time. This site doesn't use cookies or analytics. Your browser remembers locally that you joined, so the page can say so next time.</p>
+
+  <h2>Children</h2>
+  <p>Perch isn't directed at children and doesn't knowingly collect any personal information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or removal requests: open an issue at <a href="https://github.com/mcaupybugs/perch/issues">github.com/mcaupybugs/perch</a>.</p>
+</main>
+</body>
+</html>
